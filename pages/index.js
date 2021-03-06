@@ -18,6 +18,11 @@ export default function Home() {
           <Link href='/typing'>
             <a>Go To: Typing Challenge</a>
           </Link>
+          <p> 
+            - Styled Components<br/>
+            - useEffect & useState<br/>
+            - async Fetch
+          </p>
         </LinkWrapper>
       </main>
     </div>
@@ -26,4 +31,8 @@ export default function Home() {
 
 const LinkWrapper = styled.div`
   margin: 64px;
+
+  & p {
+    margin-left: 20px;
+  }
 `
