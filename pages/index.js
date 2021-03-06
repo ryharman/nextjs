@@ -1,22 +1,16 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
-import Link from 'next/link'
+import Typing from '../components/Typing/Typing'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
-        <title>Create Next App</title>
+        <title>Ryan's Next.js App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Read{' '}
-          <Link href="/posts/first-post">
-            <a>this page!</a>
-          </Link>
-        </h1>
+      <main>
+        <Typing></Typing>
       </main>
     </div>
   )
