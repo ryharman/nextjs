@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { Input, Span, Text, TypingWrapper } from './Styled';
+import { Input, Span, Text, TypingDiv, TypingWrapper } from './Styled';
 import { loadingState, quoteAPI } from './Utils';
 
 export default function Typing() {
@@ -48,11 +48,12 @@ export default function Typing() {
 
   return (
     <TypingWrapper>
-      <div>
+      <h1>Typing Challenge</h1>
+      <TypingDiv>
         {quote.map((e, index) => {
           return <Span key={index} spanClass={e.class}>{e.letter}</Span>
         })}
-      </div>
+      </TypingDiv>
       <Input
         type="text"
         name="name"

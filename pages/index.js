@@ -1,5 +1,8 @@
 import Head from 'next/head'
-import Typing from '../components/Typing/Typing'
+import Link from 'next/link'
+import styled from 'styled-components'
+import Header from '../components/Header'
+
 
 export default function Home() {
   return (
@@ -9,9 +12,18 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <Header></Header>
       <main>
-        <Typing></Typing>
+        <LinkWrapper>
+          <Link href='/typing'>
+            <a>Go To: Typing Challenge</a>
+          </Link>
+        </LinkWrapper>
       </main>
     </div>
   )
 }
+
+const LinkWrapper = styled.div`
+  margin: 64px;
+`

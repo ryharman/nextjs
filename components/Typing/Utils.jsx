@@ -4,7 +4,7 @@ export function quoteAPI() {
     return fetch(QUOTE_API_URL)
       .then(response => response.json())
       .then(data => data.content)
-  }
+}
 
 export const loadingState = [
   {
