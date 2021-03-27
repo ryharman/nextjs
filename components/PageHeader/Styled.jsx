@@ -4,7 +4,6 @@ export const HeaderStyled = styled.header`
   padding: 0 16px;
   height: 100px;
   margin: 0 48px;
-  border-bottom: 2px solid black;
   text-transform: uppercase;
   display: flex;
   justify-content: space-between;
