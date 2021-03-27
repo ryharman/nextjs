@@ -6,7 +6,7 @@ export const Input = styled.input`
   padding: 8px;
   transition: all 0.15s ease;
   width: 500px;
-  background-color: #000;
+  background-color: transparent;
   color: white;
 
   :focus {
@@ -16,7 +16,7 @@ export const Input = styled.input`
 `;
 
 export const TypingWrapper = styled.div`
-  height: calc(100vh - 57px);
+  height: calc(100vh - 100px);
   text-align: center;
   display: flex;
   flex-direction: column;
