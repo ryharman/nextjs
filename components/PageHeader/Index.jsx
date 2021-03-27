@@ -2,7 +2,7 @@ import Link from "next/link";
 import React from "react";
 import { HeaderStyled, NameStyled } from "./Styled";
 
-export default function Header() {
+export default function PageHeader() {
   return (
     <HeaderStyled>
       <NameStyled>

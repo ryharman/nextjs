@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { useState } from "react";
-import Header from "../components/Header";
-import Typing from "../components/Typing/Typing";
+import PageHeader from "../components/PageHeader/Index";
+import Typing from "../components/Typing/Index";
 import { BackgroundOverwrite } from "../styles/home";
 
 export async function getServerSideProps() {
@@ -30,7 +30,7 @@ export default function TypingPage({ initialQuote }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <BackgroundOverwrite>
-        <Header></Header>
+        <PageHeader />
         <main>
           <Typing newQuote={quote} fetchData={refreshQuote}></Typing>
         </main>

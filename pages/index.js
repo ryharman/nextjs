@@ -1,8 +1,8 @@
 import Head from "next/head";
-import About from "../components/About";
+import About from "../components/About/Index";
 import Hello from "../components/Greeting/Index";
-import Header from "../components/Header/Index";
-import Waves from "../components/Waves";
+import PageHeader from "../components/PageHeader/Index";
+import Waves from "../components/Waves/Index";
 import { BackgroundOverwrite, MainWrapper, Name } from "../styles/home";
 
 export default function Home() {
@@ -13,7 +13,7 @@ export default function Home() {
           <title>Ryan's Next.js App</title>
           <link rel="icon" href="/favicon.ico" />
         </Head>
-        <Header />
+        <PageHeader />
         <MainWrapper>
           <Hello />
           <Name>Ryan Harman</Name>

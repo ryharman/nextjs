@@ -54,6 +54,10 @@ export default function Hello() {
         deleteSpeed = 3000;
       }
     }, 100);
+
+    return function cleanup() {
+      return;
+    };
   }, [greeting]);
 
   return (
