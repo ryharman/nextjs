@@ -11,11 +11,6 @@ export default function PageHeader() {
         </Link>
         <p>SOFTWARE DEVELOPER</p>
       </NameStyled>
-      <div>
-        <Link href="/typing">
-          <a>Typing Challenge</a>
-        </Link>
-      </div>
     </HeaderStyled>
   );
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import { WavesWrapper, WavesPosition } from "./Styled";
+import { WavesWrapper, WavesPosition, ArrowWrapper, Arrow } from "./Styled";
 
 export default function Waves() {
   return (
@@ -40,6 +40,9 @@ export default function Waves() {
           </g>
         </svg>
       </WavesPosition>
+      <ArrowWrapper>
+        <Arrow />
+      </ArrowWrapper>
     </WavesWrapper>
   );
 }

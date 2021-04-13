@@ -7,6 +7,10 @@ export const HeaderStyled = styled.header`
   text-transform: uppercase;
   display: flex;
   justify-content: space-between;
+
+  @media (max-width: 768px) {
+    margin: 0;
+  }
 `;
 
 export const NameStyled = styled.div`

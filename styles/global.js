@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const MainWrapper = styled.main`
-  margin: 0 500px;
   min-height: 500px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -12,6 +12,41 @@ export const MainWrapper = styled.main`
   & h3 {
     color: #848383;
   }
+
+  @media (max-width: 768px) {
+    margin: 0 16px;
+    h1 {
+      font-size: 22px;
+    }
+
+    h3 {
+      font-size: 20px;
+    }
+  }
+`;
+
+export const SectionContent = styled.div`
+  color: #000;
+  padding: 0 48px;
+  margin: 0 auto;
+  max-width: 1250px;
+  min-height: 250px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  @media (max-width: 1024px) {
+    padding: 0 16px;
+    flex-direction: column;
+  }
+`;
+
+export const BackgroundWhite = styled.div`
+  background-color: #fff;
+`;
+
+export const CentreContent = styled.div`
+  margin: 0 auto;
 `;
 
 export const Name = styled.h1`
