@@ -1,13 +1,18 @@
 import React from "react";
-import { AboutContent, AboutHeader, AboutText, ImageContainer } from "./Styled";
+import {
+  AboutText,
+  TopLeftCorner,
+  BottomRightCorner,
+  ImageContainer,
+} from "./Styled";
 import Image from "next/image";
-import { SectionContent } from "../../styles/global";
+import { SectionContent, SectionHeader } from "../../styles/global";
 
 export default function About() {
   return (
     <SectionContent>
       <div>
-        <AboutHeader>About Me</AboutHeader>
+        <SectionHeader>About Me</SectionHeader>
         <AboutText>
           I'm a 22 year old fullstack developer working with Node.js and
           MuleSoft.
@@ -31,10 +36,12 @@ export default function About() {
         <Image
           src="/webdev.svg"
           alt="web dev illustration"
-          width={1000}
-          height={1000}
+          width={500}
+          height={375}
         />
       </ImageContainer>
+      <TopLeftCorner />
+      <BottomRightCorner />
     </SectionContent>
   );
 }

@@ -1,7 +1,7 @@
 const { default: styled } = require("styled-components");
 
 export const GreetingContainer = styled.h1`
-  height: 35px;
+  height: 2rem;
   display: flex;
   flex-direction: row;
   align-items: center;

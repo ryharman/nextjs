@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 export const HeaderStyled = styled.header`
-  padding: 0 16px;
+  padding: 0 1rem;
   height: 100px;
-  margin: 0 48px;
+  margin: 0 3rem;
   text-transform: uppercase;
   display: flex;
   justify-content: space-between;
@@ -25,6 +25,6 @@ export const NameStyled = styled.div`
   }
 
   a {
-    font-size: 26px;
+    font-size: 1.625rem;
   }
 `;
