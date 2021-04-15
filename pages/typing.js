@@ -2,7 +2,7 @@ import Head from "next/head";
 import { useState } from "react";
 import PageHeader from "../components/PageHeader/Index";
 import Typing from "../components/Typing/Index";
-import { BackgroundOverwrite } from "../styles/BackgroundOverwrite";
+import { BackgroundOverwrite } from "../styles/home";
 
 export async function getServerSideProps() {
   const res = await fetch("https://api.quotable.io/random");
