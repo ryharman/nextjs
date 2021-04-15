@@ -2,8 +2,11 @@ import Head from "next/head";
 import Hello from "../components/Greeting/Index";
 import PageHeader from "../components/PageHeader/Index";
 import Waves from "../components/Waves/Index";
-import { MainWrapper, Name } from "../components/Styled/Global";
-import { BackgroundOverwrite } from "../styles/BackgroundOverwrite";
+import {
+  BackgroundOverwrite,
+  MainWrapper,
+  Name,
+} from "../components/Styled/Global";
 
 export default function Home() {
   return (
