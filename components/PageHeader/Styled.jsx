@@ -19,12 +19,7 @@ export const NameStyled = styled.div`
   justify-content: center;
   align-items: center;
   height: 100%;
-
-  p {
-    margin: 0;
-  }
-
-  a {
-    font-size: 1.625rem;
-  }
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 1.75rem;
 `;

@@ -9,7 +9,6 @@ export default function PageHeader() {
         <Link href="/">
           <a>RYAN HARMAN</a>
         </Link>
-        <p>SOFTWARE DEVELOPER</p>
       </NameStyled>
     </HeaderStyled>
   );

@@ -1,9 +1,10 @@
 import Head from "next/head";
 import About from "../components/About/Index";
+import BlobBackground from "../components/Blobs/Index";
+import DownArrow from "../components/DownArrow/Index";
+import Footer from "../components/Footer/Index";
 import Hello from "../components/Greeting/Index";
 import PageHeader from "../components/PageHeader/Index";
-import Waves from "../components/Waves/Index";
-import { BackgroundOverwrite } from "../styles/BackgroundOverwrite";
 import {
   BackgroundWhite,
   CentreContent,
@@ -13,7 +14,7 @@ import {
 
 export default function Home() {
   return (
-    <BackgroundOverwrite>
+    <div>
       <Head>
         <title>Ryan's Next.js App</title>
         <link rel="icon" href="/favicon.ico" />
@@ -23,16 +24,15 @@ export default function Home() {
         <CentreContent>
           <Hello />
           <Name>Ryan Harman</Name>
-          <h3>
-            A Software Developer based in Chester currently working at Bentley
-            Motors{" "}
-          </h3>
+          <h3>A Software Engineer based in currently working at 🍧 </h3>
         </CentreContent>
+        <DownArrow />
+        <BlobBackground />
       </MainWrapper>
-      <Waves />
       <BackgroundWhite>
         <About />
       </BackgroundWhite>
-    </BackgroundOverwrite>
+      <Footer />
+    </div>
   );
 }

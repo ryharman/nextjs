@@ -1,16 +1,17 @@
 import styled from "styled-components";
 
 export const MainWrapper = styled.main`
-  min-height: 500px;
+  min-height: 75vh;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   line-height: 1;
+  position: relative;
 
   & h3 {
-    color: #848383;
+    color: #dbedf3;
   }
 
   @media (max-width: 768px) {
@@ -30,7 +31,7 @@ export const SectionContent = styled.section`
   padding: 0 3rem;
   margin: 0 auto;
   max-width: 1250px;
-  min-height: 250px;
+  min-height: 500px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -43,8 +44,8 @@ export const SectionContent = styled.section`
 `;
 
 export const SectionHeader = styled.h2`
-  color: #07f;
-  font-size: 2rem;
+  color: #283149;
+  font-size: 3rem;
   position: relative;
   margin-bottom: 1rem;
 
@@ -70,5 +71,6 @@ export const CentreContent = styled.div`
 `;
 
 export const Name = styled.h1`
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
+  font-size: 3rem;
 `;

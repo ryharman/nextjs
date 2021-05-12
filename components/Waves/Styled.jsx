@@ -32,7 +32,7 @@ export const Arrow = styled.div`
   transition: all 0.2s;
 
   ${ArrowWrapper}:hover & {
-    border: solid #07f;
+    border: solid #00818a;
     border-width: 0 6px 6px 0;
   }
 `;
