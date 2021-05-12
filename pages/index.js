@@ -24,7 +24,7 @@ export default function Home() {
         <CentreContent>
           <Hello />
           <Name>Ryan Harman</Name>
-          <h3>A Software Engineer based in currently working at 🍧 </h3>
+          <h3>A Software Engineer based in currently working at 🍡 </h3>
         </CentreContent>
         <DownArrow />
         <BlobBackground />

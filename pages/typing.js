@@ -2,7 +2,6 @@ import Head from "next/head";
 import { useState } from "react";
 import PageHeader from "../components/PageHeader/Index";
 import Typing from "../components/Typing/Index";
-import { BackgroundOverwrite } from "../styles/BackgroundOverwrite";
 
 export async function getServerSideProps() {
   const res = await fetch("https://api.quotable.io/random");
@@ -29,12 +28,10 @@ export default function TypingPage({ initialQuote }) {
         <title>Ryan's Next.js App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <BackgroundOverwrite>
-        <PageHeader />
-        <main>
-          <Typing newQuote={quote} fetchData={refreshQuote}></Typing>
-        </main>
-      </BackgroundOverwrite>
+      <PageHeader />
+      <main>
+        <Typing newQuote={quote} fetchData={refreshQuote}></Typing>
+      </main>
     </div>
   );
 }
