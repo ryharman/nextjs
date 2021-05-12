@@ -72,5 +72,5 @@ export const CentreContent = styled.div`
 
 export const Name = styled.h1`
   margin-bottom: 1.5rem;
-  font-size: 3rem;
+  font-size: 2.8rem;
 `;

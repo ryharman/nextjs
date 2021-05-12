@@ -5,7 +5,7 @@ export const GreetingContainer = styled.h1`
   display: flex;
   flex-direction: row;
   align-items: center;
-  font-size: 3rem;
+  font-size: 2.8rem;
 `;
 
 export const FlashyThing = styled.div`

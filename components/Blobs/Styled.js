@@ -14,3 +14,12 @@ export const BlobsContainer = styled.div`
   width: 100%;
   height: 100%;
 `;
+
+export const BlobPosition = styled.div`
+  position: absolute;
+  display: inline-block;
+  top: ${({ top }) => top + "%"};
+  bottom: ${({ bottom }) => bottom + "%"};
+  left: ${({ left }) => left + "%"};
+  right: ${({ right }) => right + "%"};
+`;

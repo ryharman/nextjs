@@ -8,7 +8,7 @@ const pulse = keyframes`
   }
 
   70% {
-    transform: scale(0.9);
+    transform: scale(1.5);
     box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
   }
 
@@ -44,14 +44,16 @@ export const BlobAnimation = styled.svg`
 
   circle,
   rect {
-    ${({ blur }) => blur && "filter: blur(2px);"}
     transform: scale(1);
+    ${({ blur }) => blur && "filter: blur(2px);"}
     animation-name: ${({ animation }) =>
       animation === "pulse" ? pulse : animation === "move" ? move : rotate};
     animation-duration: ${({ duration, animation }) =>
       animation === "move" ? "5000ms" : duration + "s"};
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
+    animation-timing-function: ease-in-out;
+    animation-delay: ${() => Math.floor(Math.random() * 10) + "s"};
     transform-origin: 50% 50%;
     transform-box: fill-box;
   }
