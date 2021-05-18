@@ -14,12 +14,7 @@ export default function About() {
         </AboutText>
         <AboutText>
           I enjoy transforming complex problems into simple and intuitive
-          solutions. I love to explore and learn new things.
-        </AboutText>
-        <AboutText>
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud"
+          solutions. I love to explore and learn new things!
         </AboutText>
       </div>
       <ImageContainer>

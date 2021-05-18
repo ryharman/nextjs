@@ -35,7 +35,6 @@ const move = keyframes`
 
   100% {
     transform: rotate(45deg) translate3d(15px, 15px, 0);
-  }
 `;
 
 // apply the animations

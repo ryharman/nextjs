@@ -35,6 +35,7 @@ export const SectionContent = styled.section`
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
   position: relative;
 
   @media (max-width: 1024px) {

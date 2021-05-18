@@ -4,7 +4,6 @@ import BlobBackground from "../components/Blobs/Index";
 import DownArrow from "../components/DownArrow/Index";
 import Footer from "../components/Footer/Index";
 import Hello from "../components/Greeting/Index";
-import PageHeader from "../components/PageHeader/Index";
 import {
   BackgroundWhite,
   CentreContent,
@@ -16,10 +15,9 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Ryan's Next.js App</title>
+        <title>Ryan Harman - Software Engineer</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <PageHeader />
       <MainWrapper>
         <CentreContent>
           <Hello />

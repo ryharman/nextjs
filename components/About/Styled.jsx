@@ -3,7 +3,7 @@ import { SectionContent } from "../../styles/global";
 
 export const AboutText = styled.p`
   padding: 0.5rem 0;
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: #404b69;
 `;
 
