@@ -22,7 +22,10 @@ export default function Home() {
         <CentreContent>
           <Hello />
           <Name>Ryan Harman</Name>
-          <h3>A Software Engineer based in currently working at 🍡 </h3>
+          <h3>
+            A fullstack developer based in Cheshire currently working at Return
+            on Investment Ltd{" "}
+          </h3>
         </CentreContent>
         <DownArrow />
         <BlobBackground />

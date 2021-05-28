@@ -9,8 +9,8 @@ export default function About() {
       <div>
         <SectionHeader>About Me 🧐</SectionHeader>
         <AboutText>
-          I'm a 22 year old front end developer working with React, Node.js and
-          MuleSoft.
+          I'm a 22 year old fullstack developer working with React, Node.js and
+          C#.
         </AboutText>
         <AboutText>
           I enjoy transforming complex problems into simple and intuitive
